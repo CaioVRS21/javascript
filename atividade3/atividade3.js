@@ -32,9 +32,21 @@ carros.forEach(function(value, index){
         console.log("Uma ligação");
         return 0;
     }
+}*/
+
+//Estrutura de uma classe
+class celular{
+    constructor(){
+        this.cor = "prata";
+    }
+    ligar(){
+        console.log("Uma ligação");
+        return 0;
+    }
 }
 
 let objeto = new celular();
 
 console.log(objeto.cor);
 console.log(objeto.ligar());
+
